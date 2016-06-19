@@ -12264,7 +12264,7 @@ Ensure that you have executed the code block once you are done. You'll know the 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> The grid search algorithm is a machine learning algorithm that help us to tune automatically the parameters with a scoring function.</p>
+<p><strong>Answer: </strong> The grid search algorithm is a machine learning algorithm that help us to tune automatically the parameters with a scoring function, it finds the best parameters guiden by the performance metric.</p>
 <p>This algorithm is applicable for regression and classification problems with a limited set of features and data.</p>
 
 </div>
@@ -12285,7 +12285,7 @@ Ensure that you have executed the code block once you are done. You'll know the 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> Cross-validation is the division of the data in K folds, where K - 1 fold will be used to training the mahcine learning algorithm and the left fold for testing. When it's done, another fold is selected and the older no selected fold for training goes into the training fold again. This process will be stopped when all the folds are used for testing. The cross-validations brings to us the possibility of use all the data for training and testing.</p>
+<p><strong>Answer: </strong> Cross-validation is the division of the data in K folds, where K - 1 fold will be used to training the mahcine learning algorithm and the left fold for testing. When it's done, another fold is selected and the older no selected fold for training goes into the training fold again. This process will be stopped when all the folds are used for testing. The cross-validations brings to us the possibility of use all the data for training and testing. Once it's finished, the mean of the scores results will be the finished score of the model.</p>
 <p>Because the grid search works testing and algorithm against a scoring function and returns the best score, if we can provide to this algorithm a lot of diferents results of data of the same dame, we can avoid possible problems with outliers, overfitting or other problems.</p>
 
 </div>
@@ -13419,7 +13419,7 @@ iCgKC8lERERERFFYSCYiIiIiisJCMhERERFRlP8HQ7qFK63nd+4AAAAASUVORK5CYII=
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong> When the model is using the full training and the max depth 1 graph, this graph suffer from high bias. In the case of max depth 10, it suffers  of high variance.</p>
-<p>As we can see in the graphs when we have the max_depth to 10 the training error is 0, this tell to us that the model are overfitting. When we have a max_depth of 1 like the first graph, we can see that the error for training and testing is bigger than the other models, this says to us that the model is underfitting.</p>
+<p>As we can see in the graphs when we have the max_depth to 10 the training error is 0 and the testing error still at the same error value, this tell to us that the model are overfitting. When we have a max_depth of 1 like the first graph, we can see that the error for training and testing is bigger than the other models, this says to us that the model is underfitting.</p>
 <p>In these graphs the best model would be the max_depth 3 because the error difference of testing and training is smaller than the other graphs and the absolute error of both are small.</p>
 
 </div>
